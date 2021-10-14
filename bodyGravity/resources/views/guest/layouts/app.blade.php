@@ -41,7 +41,7 @@
             </nav>
         </div>
         <div class="d-block d-lg-none">
-            <nav class="navbar navbar-expand-lg navbar-dark white-bg">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top">
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('image/asset/BG2.png') }}" style="width:150px;">
                 </a>
@@ -71,108 +71,110 @@
         @yield('content')
 
         <footer class="page-footer font-small back-color pt-4 mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card rounded-0">
-                            <div class="card-body rounded-0">
-                                <img src="{{ asset('image/asset/BG2.png') }}" class="w-100">
+            <div class="d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card rounded-0">
+                                <div class="card-body rounded-0">
+                                    <img src="{{ asset('image/asset/BG2.png') }}" class="w-100">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <span style="font-size:18px; font-weight:600">About Us</span>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span style="font-size:18px; font-weight:600">About Us</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-lg-12">
+                                            <span>Our Founder & Coach</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>About Us</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row mt-4">
-                                    <div class="col-lg-12">
-                                        <span>Our Founder & Coach</span>
+                                <div class="col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span style="font-size:18px; font-weight:600">Program</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-lg-12">
+                                            <span>Body Shaping</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>Rehabilitation</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>Children</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>Senior</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>About Us</span>
+                                <div class="col-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span style="font-weight:600">SIMPRUK TERAS APARTEMENT</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <span style="font-size:18px; font-weight:600">Program</span>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span>Jl. Teuku Nyak Arif</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row mt-4">
-                                    <div class="col-lg-12">
-                                        <span>Body Shaping</span>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <span>Jakarta Selatan 12220</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>Rehabilitation</span>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-12">
+                                            <span style="font-weight:600">Contact Us</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>Children</span>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-12">
+                                            <span>
+                                                <i class="fas fa-phone"></i> +62 811 877 2283
+                                            </span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>Senior</span>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>
+                                                <i class="fas fa-envelope"></i> admin@body-gravity.com
+                                            </span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <span style="font-weight:600">SIMPRUK TERAS APARTEMENT</span>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>
+                                                <i class="fas fa-envelope"></i> bodygravityid@gmail.com
+                                            </span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <span>Jl. Teuku Nyak Arif</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <span>Jakarta Selatan 12220</span>
-                                    </div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-lg-12">
-                                        <span style="font-weight:600">Contact Us</span>
-                                    </div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-lg-12">
-                                        <span>
-                                            <i class="fas fa-phone"></i> +62 811 877 2283
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>
-                                            <i class="fas fa-envelope"></i> admin@body-gravity.com
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>
-                                            <i class="fas fa-envelope"></i> bodygravityid@gmail.com
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row mt-2">
-                                    <div class="col-lg-12">
-                                        <span>
-                                            <i class="fab fa-instagram"></i> bodygravityid
-                                        </span>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-12">
+                                            <span>
+                                                <i class="fab fa-instagram"></i> bodygravityid
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +182,70 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">
+            <div class="d-block d-lg-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card rounded-0">
+                                <div class="card-body">
+                                    <img src="{{ asset('image/asset/BG2.png') }}" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <span style="font-size:20px; font-weight:700" class="text-white">About Us</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Our Founder & Coach</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">About Us</span>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <span class="text-white" style="font-size:20px; font-weight:700">Program</span>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <span class="text-white">Body Shaping</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Children</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Senior</span>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <span style="font-size:20px; font-weight:700" class="text-white">SIMPRUK TERAS APARTEMENT</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Jl. Teuku Nyak Arif</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Jakarta Selatan 12220</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3 mt-4">
                 <span>2021 &copy; Body Gravity | All rights reserved</span>
             </div>
         </footer>
